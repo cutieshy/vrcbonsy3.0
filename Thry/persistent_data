@@ -1,1 +1,2 @@
 HeaderHiderState:=show_all
+ShowLockInDialog:=False

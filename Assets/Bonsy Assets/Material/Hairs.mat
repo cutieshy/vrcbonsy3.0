@@ -8,15 +8,16 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Hairs
-  m_Shader: {fileID: 4800000, guid: 917b37092bae034459c28c00a3a19b54, type: 3}
-  m_ShaderKeywords: VIGNETTE_MASKED _ALPHABASECUTOUT_ON _ENABLELIGHTFALLOFF_ON _FRESNELONLIGHT_ON
-    _SHADOWMASKGLOSSTEXTURE_ON _SHOWSHADOWTONLIGHT_ON _SMOOTHNESS_TEXTURE_ALBEDO_CHANNEL_A
-    _USEGILIGHTING_ON
+  m_Shader: {fileID: 4800000, guid: e218a174dbf07f248bff2f45a72f7c4e, type: 3}
+  m_ShaderKeywords: VIGNETTE_MASKED _SMOOTHNESS_TEXTURE_ALBEDO_CHANNEL_A
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
+  m_CustomRenderQueue: 2000
+  stringTagMap:
+    OptimizedShaderFolder: Hairs
+    OriginalShader: ".poiyomi/\u2022 Poiyomi Toon \u2022"
+    RenderType: Opaque
   disabledShaderPasses: []
   m_SavedProperties:
     serializedVersion: 3
@@ -929,7 +930,7 @@ Material:
     - _SelfShadowSize: 0.56
     - _SelfShadowatViewDirection: 0
     - _ShadeColor_Step: 0
-    - _ShaderOptimizerEnabled: 0
+    - _ShaderOptimizerEnabled: 1
     - _ShadowAddLight: 1
     - _ShadowColorTextureIntensity: 0
     - _ShadowColorTexturePower: 0
