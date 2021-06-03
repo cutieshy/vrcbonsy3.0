@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Light
-  m_Shader: {fileID: 4800000, guid: 67e08effc48ac4744b68c34b40e57674, type: 3}
+  m_Shader: {fileID: 4800000, guid: e92bf822d1071644da706a95924c34d2, type: 3}
   m_ShaderKeywords: VIGNETTE_MASKED _SMOOTHNESS_TEXTURE_ALBEDO_CHANNEL_A
   m_LightmapFlags: 0
   m_EnableInstancingVariants: 0
@@ -726,7 +726,7 @@ Material:
     - _LightingHSLIntensity: 1
     - _LightingIgnoreAmbientColor: 0
     - _LightingIndirectColorMode: 0
-    - _LightingMinLightBrightness: 0
+    - _LightingMinLightBrightness: 0.69
     - _LightingMinShadowBrightnessRatio: 0
     - _LightingMode: 1
     - _LightingMonochromatic: 0
@@ -1205,7 +1205,7 @@ Material:
     - m_start_subsurface: 0
     - m_start_vertexManipulation: 0
     - m_start_voronoiRandom: 0
-    - shader_is_using_thry_editor: 0
+    - shader_is_using_thry_editor: 69
     - shader_master_label: 0
     - shader_presets: 0
     - shader_properties_label_file: 0

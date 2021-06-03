@@ -391,7 +391,7 @@ UnityIndirect CreateIndirectLight(float3 normal)
         }
         
         indirectLight.diffuse *= occlusion;
-        indirectLight.diffuse = max(indirectLight.diffuse, float(0));
+        indirectLight.diffuse = max(indirectLight.diffuse, float(0.69));
         indirectLight.specular *= occlusion;
     #endif
     
@@ -895,11 +895,11 @@ void calculateBasePassLightMaps()
                         
                         // Normal Shading
                         
-                        if (float(0) > 0)
+                        if (float(0.69) > 0)
                         {
                             poiLight.finalLighting = max(0.001, poiLight.finalLighting);
                             float finalluminance = calculateluminance(poiLight.finalLighting);
-                            finalLighting = max(poiLight.finalLighting, poiLight.finalLighting / max(0.0001, (finalluminance / float(0))));
+                            finalLighting = max(poiLight.finalLighting, poiLight.finalLighting / max(0.0001, (finalluminance / float(0.69))));
                         }
                         else
                         {
